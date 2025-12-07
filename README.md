@@ -1,6 +1,8 @@
 Arquitectura de Computadoras I - II Semestre 2025
+Instituto Tecnológico de Costa Rica
 
-Instituto Tecnológico de Costa RicaDescripción GeneralEste proyecto implementa una unidad de punto flotante de media precisión (FP16) optimizada, diseñada para ser integrada en un procesador RISC-V mínimo. La unidad procesa operandos en paquetes de 32 bits que comprimen dos valores de punto flotante de 16 bits, permitiendo operaciones vectoriales compactas.El proyecto es parte de una investigación enfocada en especialización de hardware para aceleración de tareas específicas, con énfasis en diseño eficiente y sintetizable para FPGAs AMD Xilinx.Objetivos del ProyectoProblema 1: Integración con RISC-V
+
+Este proyecto implementa una unidad de punto flotante de media precisión (FP16) optimizada, diseñada para ser integrada en un procesador RISC-V mínimo. La unidad procesa operandos en paquetes de 32 bits que comprimen dos valores de punto flotante de 16 bits, permitiendo operaciones vectoriales compactas.El proyecto es parte de una investigación enfocada en especialización de hardware para aceleración de tareas específicas, con énfasis en diseño eficiente y sintetizable para FPGAs AMD Xilinx.Objetivos del ProyectoProblema 1: Integración con RISC-V
 
 Integrar la unidad FP16 dentro de una implementación RISC-V mínima (RV32I)
 Extender el ISA para soportar las nuevas instrucciones de punto flotante
